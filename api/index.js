@@ -6,7 +6,7 @@ const express = require("express");
 const cors = require("cors");
 
 const app = express();
-const port = 1000;
+const port = 1010;
 
 const { apiSomar, apiSubtrair, apiMultiplicar, apiDividir } = require("./operacoes");
 

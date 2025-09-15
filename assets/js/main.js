@@ -1,6 +1,6 @@
-const url = "http://localhost:1000";
+const url = "http://localhost:1010";
 
-document.getElementById('formulario').addEventListener('submit', async function(e) {
+document.getElementById('formulario').addEventListener('submit', async function (e) {
 
     e.preventDefault(); // está impedindo o reload da página
     let num1 = document.getElementById('num1').value;
@@ -14,3 +14,9 @@ document.getElementById('formulario').addEventListener('submit', async function(
 
     document.getElementById('resultado').innerText = `Resultado: ${result.result}`;
 });
+
+document.getElementById('formulario').addEventListener('reset', function(){
+
+    document.getElementById('resultado').innerText = " ";
+
+})
