@@ -1,0 +1,16 @@
+function soma(num1,num2){
+    return Number(num1) + Number(num2)
+}
+function subtrair(num1,num2){
+    return Number(num1) - Number(num2)
+}
+function multiplicar(num1,num2){
+    return Number(num1) * Number(num2)
+}
+function dividir(num1,num2){
+    return Number(num1) / Number(num2)
+}
+
+
+
+module.exports = {soma, subtrair,multiplicar,dividir}
