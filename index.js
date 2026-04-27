@@ -24,7 +24,7 @@ app.get('/', (req,res)=> {
 
 });
 
-app.get('/soma',apiSomar);
+app.post('/soma',apiSomar);
 
 app.post('/subtrair', apiSubtrair);
 
