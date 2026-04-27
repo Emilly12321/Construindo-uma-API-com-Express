@@ -1,0 +1,19 @@
+{
+  "name": "api-node",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node --watch index.js",
+    "test": "jest test/*"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "jest": "^30.3.0"
+  },
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
